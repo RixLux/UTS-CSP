@@ -8,13 +8,7 @@
 </a>
 
 # Getting Started
-if it ask use this:
-{
-    "name": "bazzite",
-    "email": "bazzite@gg.com",
-    "password": "bazzite.gg",
-    "password_confirmation": "bazzite.gg"
-}
+
 ## Prerequisites
 
 - Php
