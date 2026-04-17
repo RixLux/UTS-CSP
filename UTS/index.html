@@ -1,0 +1,1229 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Documentation">
+      
+      
+      
+        <link rel="canonical" href="https://rixlux.github.io/UTS-CSP/UTS/">
+      
+      
+        <link rel="prev" href="../API/">
+      
+      
+      
+        
+      
+      
+      <link rel="icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.6">
+    
+    
+      
+        <title>UTS - UTS-CSP Documentation</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.484c7ddc.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../stylesheets/extra.css">
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="deep-purple" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#sistem-manajemen-buku" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href=".." title="UTS-CSP Documentation" class="md-header__button md-logo" aria-label="UTS-CSP Documentation" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            UTS-CSP Documentation
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              UTS
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="default" data-md-color-primary="deep-purple" data-md-color-accent="indigo"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="slate" data-md-color-primary="black" data-md-color-accent="blue"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12s-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+          <a href="javascript:void(0)" class="md-search__icon md-icon" title="Share" aria-label="Share" data-clipboard data-clipboard-text="" data-md-component="search-share" tabindex="-1">
+            
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M18 16.08c-.76 0-1.44.3-1.96.77L8.91 12.7c.05-.23.09-.46.09-.7s-.04-.47-.09-.7l7.05-4.11c.54.5 1.25.81 2.04.81a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3c0 .24.04.47.09.7L8.04 9.81C7.5 9.31 6.79 9 6 9a3 3 0 0 0-3 3 3 3 0 0 0 3 3c.79 0 1.5-.31 2.04-.81l7.12 4.15c-.05.21-.08.43-.08.66 0 1.61 1.31 2.91 2.92 2.91s2.92-1.3 2.92-2.91A2.92 2.92 0 0 0 18 16.08"/></svg>
+          </a>
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/RixLux/UTS-CSP" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    RixLux/UTS-CSP
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href=".." class="md-tabs__link">
+        
+  
+  
+    
+  
+  Home
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../API/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  API
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    
+  
+  
+    <li class="md-tabs__item md-tabs__item--active">
+      <a href="./" class="md-tabs__link">
+        
+  
+  
+    
+  
+  UTS
+
+      </a>
+    </li>
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="UTS-CSP Documentation" class="md-nav__button md-logo" aria-label="UTS-CSP Documentation" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    UTS-CSP Documentation
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/RixLux/UTS-CSP" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    RixLux/UTS-CSP
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Home
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../API/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    API
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    UTS
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    UTS
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#1-authentication" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1. Authentication
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="1. Authentication">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#register" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Register
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-login" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2. Login
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#category-management" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Category Management
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Category Management">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-list-categories" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1. List Categories
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-store-category" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2. Store Category
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-update-category" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3. Update Category
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#4-delete-category" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4. Delete Category
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#book-management" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Book Management
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Book Management">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-store-book" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1. Store Book
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-show-book-detail" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2. Show Book Detail
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-update-book" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3. Update Book
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#4-delete-book" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4. Delete Book
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#5-list-books-with-search-filter-pagination" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5. List Books (with Search, Filter, &amp; Pagination)
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#1-authentication" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1. Authentication
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="1. Authentication">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#register" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Register
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-login" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2. Login
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#category-management" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Category Management
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Category Management">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-list-categories" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1. List Categories
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-store-category" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2. Store Category
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-update-category" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3. Update Category
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#4-delete-category" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4. Delete Category
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#book-management" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Book Management
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Book Management">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-store-book" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1. Store Book
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-show-book-detail" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2. Show Book Detail
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-update-book" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3. Update Book
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#4-delete-book" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4. Delete Book
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#5-list-books-with-search-filter-pagination" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5. List Books (with Search, Filter, &amp; Pagination)
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+  
+  
+
+
+<h1 id="sistem-manajemen-buku">Sistem Manajemen Buku</h1>
+<h2 id="1-authentication">1. Authentication</h2>
+<p>THIS IS JUST AN EXAMPLE ON HOW TO ACTUALLY USE IT YOU CAN SIMPLY READ <a href="../API/">API.md</a> for detailed instruction.  </p>
+<h3 id="register">Register</h3>
+<p>HEADERS:<br />
+- Key :Accept<br />
+- Value :application/json  </p>
+<p>Method:POST<br />
+URL:<a href="http://127.0.0.1:8080/api/register">http://127.0.0.1:8080/api/register</a><br />
+EXAMPLE OF BODY:<br />
+<div class="highlight"><pre><span></span><code>{
+    &quot;name&quot;: &quot;bazzite&quot;,
+    &quot;email&quot;: &quot;bazzite@gg.com&quot;,
+    &quot;password&quot;: &quot;bazzite.gg&quot;,
+    &quot;password_confirmation&quot;: &quot;bazzite.gg&quot;
+}
+</code></pre></div>
+RESPONSE:<br />
+<div class="highlight"><pre><span></span><code>{
+    &quot;access_token&quot;: &quot;1|vVCLpytUJgMSRMiW2zt0AA1qRvftA3DRTqNiMkXAb948770e&quot;,
+    &quot;token_type&quot;: &quot;Bearer&quot;,
+    &quot;user&quot;: {
+        &quot;name&quot;: &quot;bazzite&quot;,
+        &quot;email&quot;: &quot;bazzite@gg.com&quot;,
+        &quot;updated_at&quot;: &quot;2026-04-17T04:58:22.000000Z&quot;,
+        &quot;created_at&quot;: &quot;2026-04-17T04:58:22.000000Z&quot;,
+        &quot;id&quot;: 1
+    }
+}
+</code></pre></div>
+<img alt="register" src="../Images/UTS/register.png" />   </p>
+<h3 id="2-login">2. Login</h3>
+<p>METHOD:POST<br />
+URL:<a href="http://127.0.0.1:8080/api/login">http://127.0.0.1:8080/api/login</a><br />
+BODY:<br />
+<div class="highlight"><pre><span></span><code>{
+    &quot;email&quot;: &quot;bazzite@gg.com&quot;,
+    &quot;password&quot;: &quot;bazzite.gg&quot;
+}
+</code></pre></div></p>
+<p>RESPONSE:<br />
+<div class="highlight"><pre><span></span><code>{
+    &quot;access_token&quot;: &quot;2|46svRT1s6HN5XW2kd74No4kiW6Sot4xi5fhSjH3193ba7d98&quot;,
+    &quot;token_type&quot;: &quot;Bearer&quot;,
+    &quot;user&quot;: {
+        &quot;id&quot;: 1,
+        &quot;name&quot;: &quot;bazzite&quot;,
+        &quot;email&quot;: &quot;bazzite@gg.com&quot;,
+        &quot;email_verified_at&quot;: null,
+        &quot;created_at&quot;: &quot;2026-04-17T04:58:22.000000Z&quot;,
+        &quot;updated_at&quot;: &quot;2026-04-17T04:58:22.000000Z&quot;
+    }
+}
+</code></pre></div></p>
+<h2 id="category-management">Category Management</h2>
+<h3 id="1-list-categories">1. List Categories</h3>
+<ul>
+<li>Method: GET</li>
+<li>URL:<a href="http://localhost:8080/api/categories">http://localhost:8080/api/categories</a>  </li>
+<li>Headers:<br />
+Key:Accept<br />
+Accept: application/json<br />
+Authorization: Bearer  </li>
+</ul>
+<div class="highlight"><pre><span></span><code>2|46svRT1s6HN5XW2kd74No4kiW6Sot4xi5fhSjH3193ba7d98
+</code></pre></div>
+<p><img alt="categories1" src="../Images/UTS/listCategories1.png" />  </p>
+<ul>
+<li><strong>RESPONSE:</strong>
+<div class="highlight"><pre><span></span><code>{
+    &quot;data&quot;: [
+        {
+            &quot;id&quot;: 2,
+            &quot;name&quot;: &quot;Advanced Machine Learning&quot;,
+            &quot;created_at&quot;: &quot;2026-04-17T06:41:32.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2026-04-17T06:41:32.000000Z&quot;
+        },
+        {
+            &quot;id&quot;: 3,
+            &quot;name&quot;: &quot;Programming&quot;,
+            &quot;created_at&quot;: &quot;2026-04-17T06:42:00.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2026-04-17T06:42:00.000000Z&quot;
+        },
+        {
+            &quot;id&quot;: 4,
+            &quot;name&quot;: &quot;Math&quot;,
+            &quot;created_at&quot;: &quot;2026-04-17T06:42:45.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2026-04-17T06:42:45.000000Z&quot;
+        }
+    ]
+}
+</code></pre></div>
+<img alt="listCategories2" src="../Images/UTS/listCategories2.png" />  </li>
+</ul>
+<h3 id="2-store-category">2. Store Category</h3>
+<ul>
+<li><strong>Method:</strong> <code>POST</code></li>
+<li><strong>URL:</strong> <a href="http://127.0.0.1:8080/api/categories">http://127.0.0.1:8080/api/categories</a></li>
+<li><strong>Body:</strong>
+<div class="highlight"><pre><span></span><code><span class="p">{</span>
+<span class="w">    </span><span class="nt">&quot;name&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Programming&quot;</span>
+<span class="p">}</span>
+</code></pre></div></li>
+<li><strong>RESPONSE:</strong>
+<div class="highlight"><pre><span></span><code>{
+    &quot;data&quot;: {
+        &quot;id&quot;: 1,
+        &quot;name&quot;: &quot;Machine Learning&quot;,
+        &quot;created_at&quot;: &quot;2026-04-17T06:23:22.000000Z&quot;,
+        &quot;updated_at&quot;: &quot;2026-04-17T06:23:22.000000Z&quot;
+    }
+}
+</code></pre></div>
+<img alt="storeCategories1" src="../Images/UTS/storeCategories1.png" />  </li>
+</ul>
+<h3 id="3-update-category">3. Update Category</h3>
+<ul>
+<li><strong>Method:</strong> <code>PUT/PATCH</code></li>
+<li><strong>URL:</strong> <code>/categories/{id}</code></li>
+<li><strong>Body:</strong>
+<div class="highlight"><pre><span></span><code><span class="p">{</span>
+<span class="w">    </span><span class="nt">&quot;name&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Advanced Machine Learning&quot;</span>
+<span class="p">}</span>
+</code></pre></div></li>
+<li><strong>RESPONSE:</strong>
+<div class="highlight"><pre><span></span><code>{
+    &quot;data&quot;: {
+        &quot;id&quot;: 1,
+        &quot;name&quot;: &quot;Advanced Machine Learning&quot;,
+        &quot;created_at&quot;: &quot;2026-04-17T06:23:22.000000Z&quot;,
+        &quot;updated_at&quot;: &quot;2026-04-17T06:26:58.000000Z&quot;
+    }
+}
+</code></pre></div>
+<img alt="updateCategories1" src="../Images/UTS/updateCategories1.png" />  </li>
+</ul>
+<h3 id="4-delete-category">4. Delete Category</h3>
+<ul>
+<li><strong>Method:</strong> <code>DELETE</code></li>
+<li><strong>URL:</strong> <a href="http://127.0.0.1:8080/api/categories/1">http://127.0.0.1:8080/api/categories/1</a>  </li>
+<li><strong>RESPONSE:</strong>
+<div class="highlight"><pre><span></span><code>{
+    &quot;message&quot;: &quot;Category deleted successfully&quot;
+}
+</code></pre></div>
+<img alt="deleteCategories1" src="../Images/UTS/deleteCategories1.png" />  </li>
+</ul>
+<h2 id="book-management">Book Management</h2>
+<p>Semua endpoint di bawah ini membutuhkan header:
+<code>Authorization: Bearer {your_token}</code></p>
+<h3 id="1-store-book">1. Store Book</h3>
+<ul>
+<li><strong>Method:</strong> <code>POST</code></li>
+<li><strong>URL:</strong> <code>/books</code></li>
+<li><strong>Body:</strong>
+<div class="highlight"><pre><span></span><code><span class="p">{</span>
+<span class="w">    </span><span class="nt">&quot;title&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Machine Learning Lanjut&quot;</span><span class="p">,</span>
+<span class="w">    </span><span class="nt">&quot;category_id&quot;</span><span class="p">:</span><span class="w"> </span><span class="mi">2</span><span class="p">,</span>
+<span class="w">    </span><span class="nt">&quot;author&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Nobel&quot;</span><span class="p">,</span>
+<span class="w">    </span><span class="nt">&quot;description&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Comprehensive guide to Machine Learning.&quot;</span><span class="p">,</span>
+<span class="w">    </span><span class="nt">&quot;price&quot;</span><span class="p">:</span><span class="w"> </span><span class="mf">90.0</span><span class="p">,</span>
+<span class="w">    </span><span class="nt">&quot;pdf_url&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;https://example.com/books/MachineLearningLanjut.pdf&quot;</span>
+<span class="p">}</span>
+</code></pre></div></li>
+<li><strong>RESPONSE:</strong>
+<div class="highlight"><pre><span></span><code>{
+    &quot;data&quot;: {
+        &quot;id&quot;: 1,
+        &quot;category_id&quot;: 2,
+        &quot;category&quot;: {
+            &quot;id&quot;: 2,
+            &quot;name&quot;: &quot;Advanced Machine Learning&quot;,
+            &quot;created_at&quot;: &quot;2026-04-17T06:41:32.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2026-04-17T06:41:32.000000Z&quot;
+        },
+        &quot;title&quot;: &quot;Machine Learning Lanjut&quot;,
+        &quot;author&quot;: &quot;Nobel&quot;,
+        &quot;description&quot;: &quot;Comprehensive guide to Machine Learning.&quot;,
+        &quot;pdf_url&quot;: &quot;https://example.com/books/MachineLearningLanjut.pdf&quot;,
+        &quot;price&quot;: 90,
+        &quot;created_at&quot;: &quot;2026-04-17T06:50:43.000000Z&quot;,
+        &quot;updated_at&quot;: &quot;2026-04-17T06:50:43.000000Z&quot;
+    }
+}
+</code></pre></div></li>
+</ul>
+<p><img alt="Images/UTS/postBook1.png" src="../Images/UTS/postBook1.png" />  </p>
+<h3 id="2-show-book-detail">2. Show Book Detail</h3>
+<ul>
+<li><strong>Method:</strong> <code>GET</code></li>
+<li><strong>URL:</strong> <code>/books/{id}</code></li>
+</ul>
+<p><img alt="getBook1.png" src="../Images/UTS/getBook1.png" />  </p>
+<h3 id="3-update-book">3. Update Book</h3>
+<ul>
+<li><strong>Method:</strong> <code>PUT/PATCH</code></li>
+<li><strong>URL:</strong> <code>/books/{id}</code></li>
+<li><strong>Body:</strong> (Semua field bersifat opsional)
+<div class="highlight"><pre><span></span><code><span class="p">{</span>
+<span class="w">    </span><span class="nt">&quot;title&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Machine Learning Lanjut&quot;</span><span class="p">,</span>
+<span class="w">    </span><span class="nt">&quot;category_id&quot;</span><span class="p">:</span><span class="w"> </span><span class="mi">2</span><span class="p">,</span>
+<span class="w">    </span><span class="nt">&quot;author&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Irham Nobel&quot;</span><span class="p">,</span>
+<span class="w">    </span><span class="nt">&quot;price&quot;</span><span class="p">:</span><span class="w"> </span><span class="mf">100.0</span>
+<span class="p">}</span>
+</code></pre></div></li>
+<li><strong>RESPONSE:</strong>
+<div class="highlight"><pre><span></span><code>{
+    &quot;data&quot;: {
+        &quot;id&quot;: 1,
+        &quot;category_id&quot;: 2,
+        &quot;category&quot;: {
+            &quot;id&quot;: 2,
+            &quot;name&quot;: &quot;Advanced Machine Learning&quot;,
+            &quot;created_at&quot;: &quot;2026-04-17T06:41:32.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2026-04-17T06:41:32.000000Z&quot;
+        },
+        &quot;title&quot;: &quot;Machine Learning Lanjut&quot;,
+        &quot;author&quot;: &quot;Irham Nobel&quot;,
+        &quot;description&quot;: &quot;Comprehensive guide to Machine Learning.&quot;,
+        &quot;pdf_url&quot;: &quot;https://example.com/books/MachineLearningLanjut.pdf&quot;,
+        &quot;price&quot;: 100,
+        &quot;created_at&quot;: &quot;2026-04-17T06:50:43.000000Z&quot;,
+        &quot;updated_at&quot;: &quot;2026-04-17T06:56:02.000000Z&quot;
+    }
+}
+</code></pre></div>
+<img alt="putBook1.png" src="../Images/UTS/putBook1.png" />  </li>
+</ul>
+<h3 id="4-delete-book">4. Delete Book</h3>
+<ul>
+<li><strong>Method:</strong> <code>DELETE</code></li>
+<li><strong>URL:</strong> <code>/books/{id}</code></li>
+<li><strong>RESPONSE:</strong>
+<div class="highlight"><pre><span></span><code>{
+    &quot;message&quot;: &quot;Book deleted successfully&quot;
+}
+</code></pre></div>
+<img alt="deleteBook1.png" src="../Images/UTS/deleteBook1.png" />  </li>
+</ul>
+<h3 id="5-list-books-with-search-filter-pagination">5. List Books (with Search, Filter, &amp; Pagination)</h3>
+<ul>
+<li><strong>Method:</strong> <code>GET</code></li>
+<li><strong>URL:</strong> <code>/books</code></li>
+<li>
+<p><strong>Query Params:</strong></p>
+<ul>
+<li><code>search</code>: Cari berdasarkan judul atau penulis (e.g., <code>?search=Laravel</code>)</li>
+<li><code>category_id</code>: Filter berdasarkan ID kategori (e.g., <code>?category_id=1</code>)</li>
+<li><code>page</code>: Nomor halaman (Pagination 5 data per halaman)</li>
+</ul>
+</li>
+<li>
+<p><strong>EXAMPLE:</strong>
+<div class="highlight"><pre><span></span><code>http://127.0.0.1:8080/api/books/?search=Programming
+</code></pre></div></p>
+</li>
+<li>
+<p><strong>Response Example:</strong>
+<div class="highlight"><pre><span></span><code><span class="p">{</span>
+<span class="w">    </span><span class="nt">&quot;data&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span>
+<span class="w">        </span><span class="p">{</span>
+<span class="w">            </span><span class="nt">&quot;id&quot;</span><span class="p">:</span><span class="w"> </span><span class="mi">3</span><span class="p">,</span>
+<span class="w">            </span><span class="nt">&quot;category_id&quot;</span><span class="p">:</span><span class="w"> </span><span class="mi">3</span><span class="p">,</span>
+<span class="w">            </span><span class="nt">&quot;category&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">                </span><span class="nt">&quot;id&quot;</span><span class="p">:</span><span class="w"> </span><span class="mi">3</span><span class="p">,</span>
+<span class="w">                </span><span class="nt">&quot;name&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Programming&quot;</span><span class="p">,</span>
+<span class="w">                </span><span class="nt">&quot;created_at&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;2026-04-17T06:42:00.000000Z&quot;</span><span class="p">,</span>
+<span class="w">                </span><span class="nt">&quot;updated_at&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;2026-04-17T06:42:00.000000Z&quot;</span>
+<span class="w">            </span><span class="p">},</span>
+<span class="w">            </span><span class="nt">&quot;title&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Programming Lanjut&quot;</span><span class="p">,</span>
+<span class="w">            </span><span class="nt">&quot;author&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Nobel&quot;</span><span class="p">,</span>
+<span class="w">            </span><span class="nt">&quot;description&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Comprehensive guide to Programming.&quot;</span><span class="p">,</span>
+<span class="w">            </span><span class="nt">&quot;pdf_url&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;https://example.com/books/ProgrammingLanjut.pdf&quot;</span><span class="p">,</span>
+<span class="w">            </span><span class="nt">&quot;price&quot;</span><span class="p">:</span><span class="w"> </span><span class="mi">90</span><span class="p">,</span>
+<span class="w">            </span><span class="nt">&quot;created_at&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;2026-04-17T07:03:34.000000Z&quot;</span><span class="p">,</span>
+<span class="w">            </span><span class="nt">&quot;updated_at&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;2026-04-17T07:05:10.000000Z&quot;</span>
+<span class="w">        </span><span class="p">}</span>
+<span class="w">    </span><span class="p">],</span>
+<span class="w">    </span><span class="nt">&quot;links&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">        </span><span class="nt">&quot;first&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;http://127.0.0.1:8080/api/books?page=1&quot;</span><span class="p">,</span>
+<span class="w">        </span><span class="nt">&quot;last&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;http://127.0.0.1:8080/api/books?page=1&quot;</span><span class="p">,</span>
+<span class="w">        </span><span class="nt">&quot;prev&quot;</span><span class="p">:</span><span class="w"> </span><span class="kc">null</span><span class="p">,</span>
+<span class="w">        </span><span class="nt">&quot;next&quot;</span><span class="p">:</span><span class="w"> </span><span class="kc">null</span>
+<span class="w">    </span><span class="p">},</span>
+<span class="w">    </span><span class="nt">&quot;meta&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">        </span><span class="nt">&quot;current_page&quot;</span><span class="p">:</span><span class="w"> </span><span class="mi">1</span><span class="p">,</span>
+<span class="w">        </span><span class="nt">&quot;from&quot;</span><span class="p">:</span><span class="w"> </span><span class="mi">1</span><span class="p">,</span>
+<span class="w">        </span><span class="nt">&quot;last_page&quot;</span><span class="p">:</span><span class="w"> </span><span class="mi">1</span><span class="p">,</span>
+<span class="w">        </span><span class="nt">&quot;links&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span>
+<span class="w">            </span><span class="p">{</span>
+<span class="w">                </span><span class="nt">&quot;url&quot;</span><span class="p">:</span><span class="w"> </span><span class="kc">null</span><span class="p">,</span>
+<span class="w">                </span><span class="nt">&quot;label&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;&amp;laquo; Previous&quot;</span><span class="p">,</span>
+<span class="w">                </span><span class="nt">&quot;page&quot;</span><span class="p">:</span><span class="w"> </span><span class="kc">null</span><span class="p">,</span>
+<span class="w">                </span><span class="nt">&quot;active&quot;</span><span class="p">:</span><span class="w"> </span><span class="kc">false</span>
+<span class="w">            </span><span class="p">},</span>
+<span class="w">            </span><span class="p">{</span>
+<span class="w">                </span><span class="nt">&quot;url&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;http://127.0.0.1:8080/api/books?page=1&quot;</span><span class="p">,</span>
+<span class="w">                </span><span class="nt">&quot;label&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;1&quot;</span><span class="p">,</span>
+<span class="w">                </span><span class="nt">&quot;page&quot;</span><span class="p">:</span><span class="w"> </span><span class="mi">1</span><span class="p">,</span>
+<span class="w">                </span><span class="nt">&quot;active&quot;</span><span class="p">:</span><span class="w"> </span><span class="kc">true</span>
+<span class="w">            </span><span class="p">},</span>
+<span class="w">            </span><span class="p">{</span>
+<span class="w">                </span><span class="nt">&quot;url&quot;</span><span class="p">:</span><span class="w"> </span><span class="kc">null</span><span class="p">,</span>
+<span class="w">                </span><span class="nt">&quot;label&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Next &amp;raquo;&quot;</span><span class="p">,</span>
+<span class="w">                </span><span class="nt">&quot;page&quot;</span><span class="p">:</span><span class="w"> </span><span class="kc">null</span><span class="p">,</span>
+<span class="w">                </span><span class="nt">&quot;active&quot;</span><span class="p">:</span><span class="w"> </span><span class="kc">false</span>
+<span class="w">            </span><span class="p">}</span>
+<span class="w">        </span><span class="p">],</span>
+<span class="w">        </span><span class="nt">&quot;path&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;http://127.0.0.1:8080/api/books&quot;</span><span class="p">,</span>
+<span class="w">        </span><span class="nt">&quot;per_page&quot;</span><span class="p">:</span><span class="w"> </span><span class="mi">5</span><span class="p">,</span>
+<span class="w">        </span><span class="nt">&quot;to&quot;</span><span class="p">:</span><span class="w"> </span><span class="mi">1</span><span class="p">,</span>
+<span class="w">        </span><span class="nt">&quot;total&quot;</span><span class="p">:</span><span class="w"> </span><span class="mi">1</span>
+<span class="w">    </span><span class="p">}</span>
+<span class="p">}</span>
+</code></pre></div>
+<img alt="listBookbyName" src="../Images/UTS/listBookbyName.png" /></p>
+</li>
+</ul>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "..", "features": ["navigation.tabs", "navigation.sections", "navigation.top", "search.highlight", "search.suggest", "search.share", "content.code.copy"], "search": "../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.79ae519e.min.js"></script>
+      
+    
+  </body>
+</html>
