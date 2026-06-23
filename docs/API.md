@@ -4,12 +4,26 @@ Sistem ini menyediakan API untuk mengelola kategori dan buku (PDF) dengan otenti
 
 ## API Reference
 
+<details markdown="1">
+<summary>Click to see details</summary>
+
 <swagger-ui src="./assets/api.json"/>
 
+</details>
+
 ## Base URL
+
+<details markdown="1">
+<summary>Click to see details</summary>
+
 `http://127.0.0.1:8000/api` (Sesuaikan dengan port server lokal Anda)
 
+</details>
+
 ## Authentication
+
+<details markdown="1">
+<summary>Click to see details</summary>
 
 ### 1. Register
 Mendaftarkan user baru untuk mendapatkan akses API.
@@ -47,7 +61,13 @@ Masuk ke sistem untuk mendapatkan access token.
 
 ---
 
+</details>
+
 ## Category Management
+
+<details markdown="1">
+<summary>Click to see details</summary>
+
 Endpoint ini digunakan untuk mengelola kategori buku. Semua endpoint di bawah ini membutuhkan header:
 `Authorization: Bearer {your_token}`
 
@@ -82,7 +102,13 @@ Menampilkan semua kategori.
 
 ---
 
+</details>
+
 ## Book Management
+
+<details markdown="1">
+<summary>Click to see details</summary>
+
 Semua endpoint di bawah ini membutuhkan header:
 `Authorization: Bearer {your_token}`
 
@@ -150,8 +176,18 @@ Semua endpoint di bawah ini membutuhkan header:
 
 ---
 
+</details>
+
 ## Standard Response Format
+
+<details markdown="1">
+<summary>Click to see details</summary>
+
 Semua response data menggunakan `JsonResource` untuk standarisasi:
+
 - Data utama dibungkus dalam key `"data"`.
 - Untuk endpoint list buku, terdapat key `"links"` dan `"meta"` untuk informasi pagination.
 - Header `Accept: application/json` wajib digunakan untuk mendapatkan response error validasi dalam format JSON.
+
+</details>
+

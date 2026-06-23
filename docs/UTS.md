@@ -1,10 +1,16 @@
 # Sistem Manajemen Buku
 
-## 1. Authentication
+## Authentication
+
+<details markdown="1">
+<summary>Click to see details</summary>
+
 THIS IS JUST AN EXAMPLE ON HOW TO ACTUALLY USE IT YOU CAN SIMPLY READ [API.md](API.md) for detailed instruction.  
+
 ### Register  
 
 HEADERS:  
+
 - Key :Accept  
 - Value :application/json  
 
@@ -63,7 +69,12 @@ RESPONSE:
 }
 ```
 
+</details>
+
 ## Category Management
+
+<details markdown="1">
+<summary>Click to see details</summary>
 
 ### 1. List Categories
 
@@ -161,7 +172,13 @@ Authorization: Bearer
 ```
 ![deleteCategories1](Images/UTS/deleteCategories1.png)  
 
+</details>
+
 ## Book Management
+
+<details markdown="1">
+<summary>Click to see details</summary>
+
 Semua endpoint di bawah ini membutuhkan header:
 `Authorization: Bearer {your_token}`
 
@@ -329,3 +346,6 @@ http://127.0.0.1:8080/api/books/?search=Programming
 }
 ```
 ![listBookbyName](Images/UTS/listBookbyName.png)
+
+</details>
+
