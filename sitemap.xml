@@ -1,15 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
     <url>
-         <loc>https://rixlux.github.io/UTS-CSP/</loc>
-         <lastmod>2026-04-17</lastmod>
+        <loc>https://rixlux.github.io/UTS-CSP/</loc>
+        <lastmod>2026-06-23</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://rixlux.github.io/UTS-CSP/"/>
+        <xhtml:link rel="alternate" hreflang="id" href="https://rixlux.github.io/UTS-CSP/id/"/>
     </url>
     <url>
-         <loc>https://rixlux.github.io/UTS-CSP/API/</loc>
-         <lastmod>2026-04-17</lastmod>
+        <loc>https://rixlux.github.io/UTS-CSP/API/</loc>
+        <lastmod>2026-06-23</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://rixlux.github.io/UTS-CSP/API/"/>
+        <xhtml:link rel="alternate" hreflang="id" href="https://rixlux.github.io/UTS-CSP/id/API/"/>
     </url>
     <url>
-         <loc>https://rixlux.github.io/UTS-CSP/UTS/</loc>
-         <lastmod>2026-04-17</lastmod>
+        <loc>https://rixlux.github.io/UTS-CSP/UTS/</loc>
+        <lastmod>2026-06-23</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://rixlux.github.io/UTS-CSP/UTS/"/>
+        <xhtml:link rel="alternate" hreflang="id" href="https://rixlux.github.io/UTS-CSP/id/UTS/"/>
+    </url>
+    <url>
+        <loc>https://rixlux.github.io/UTS-CSP/id/</loc>
+        <lastmod>2026-06-23</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="id" href="https://rixlux.github.io/UTS-CSP/id/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://rixlux.github.io/UTS-CSP/"/>
+    </url>
+    <url>
+        <loc>https://rixlux.github.io/UTS-CSP/id/API/</loc>
+        <lastmod>2026-06-23</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="id" href="https://rixlux.github.io/UTS-CSP/id/API/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://rixlux.github.io/UTS-CSP/API/"/>
+    </url>
+    <url>
+        <loc>https://rixlux.github.io/UTS-CSP/id/UTS/</loc>
+        <lastmod>2026-06-23</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="id" href="https://rixlux.github.io/UTS-CSP/id/UTS/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://rixlux.github.io/UTS-CSP/UTS/"/>
     </url>
 </urlset>
