@@ -34,10 +34,8 @@ theme:
         icon: material/brightness-4
         name: Switch to light mode
 
-nav:
-  - Home: index.md
-  - API: API.md
-  - UTS: UTS.md
+extra:
+  generator: false
 
 markdown_extensions:
   - admonition
@@ -50,6 +48,25 @@ markdown_extensions:
 
 plugins:
   - search
+  - i18n:
+      languages:
+        - locale: id
+          name: Bahasa Indonesia
+          build: true
+        - locale: en
+          default: true
+          name: English
+          build: true
+  - swagger-ui-tag
+  # - render_swagger
+  - git-revision-date-localized:
+      enable_creation_date: !ENV [CI, false]
+      fallback_to_build_date: true
 
 extra_css:
   - stylesheets/extra.css
+
+nav:
+  - Home: index.md
+  - API: API.md
+  - UTS: UTS.md

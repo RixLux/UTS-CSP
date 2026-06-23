@@ -2,6 +2,10 @@
 
 Sistem ini menyediakan API untuk mengelola kategori dan buku (PDF) dengan otentikasi menggunakan Laravel Sanctum.
 
+## API Reference
+
+<swagger-ui src="./assets/api.json"/>
+
 ## Base URL
 `http://127.0.0.1:8000/api` (Sesuaikan dengan port server lokal Anda)
 
